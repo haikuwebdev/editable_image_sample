@@ -1,0 +1,8 @@
+.DS_Store
+config/picnik.yml
+db/*.sqlite3
+db/database.yml
+log/*
+public/test/*
+public/attfu_images/*
+tmp/*

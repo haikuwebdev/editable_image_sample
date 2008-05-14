@@ -1,0 +1,14 @@
+<div class="top_links">
+  <%= link_to 'New', new_attfu_image_path %>
+</div>
+
+<%- @images.each do |image| -%>
+  <div class="index">
+    <%= image_tag image.public_filename(:medium) %>
+    <div class="image_links">
+      <%= link_to 'Show', attfu_image_path(image) %>
+      <%= link_to 'Edit', edit_attfu_image_path(image) %>
+      <%= link_to 'Destroy', attfu_image_path(image), :method => :delete %>
+    </div>
+  </div>
+<%- end -%>

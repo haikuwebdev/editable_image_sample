@@ -1,0 +1,16 @@
+(in /Users/tj/Dev/Rails/Caltech/tools/editable_image_sample)
+              attfu_images GET    /attfu_images                  {:action=>"index", :controller=>"attfu_images"}
+    formatted_attfu_images GET    /attfu_images.:format          {:action=>"index", :controller=>"attfu_images"}
+                           POST   /attfu_images                  {:action=>"create", :controller=>"attfu_images"}
+                           POST   /attfu_images.:format          {:action=>"create", :controller=>"attfu_images"}
+           new_attfu_image GET    /attfu_images/new              {:action=>"new", :controller=>"attfu_images"}
+ formatted_new_attfu_image GET    /attfu_images/new.:format      {:action=>"new", :controller=>"attfu_images"}
+          edit_attfu_image GET    /attfu_images/:id/edit         {:action=>"edit", :controller=>"attfu_images"}
+formatted_edit_attfu_image GET    /attfu_images/:id/edit.:format {:action=>"edit", :controller=>"attfu_images"}
+               attfu_image GET    /attfu_images/:id              {:action=>"show", :controller=>"attfu_images"}
+     formatted_attfu_image GET    /attfu_images/:id.:format      {:action=>"show", :controller=>"attfu_images"}
+                           PUT    /attfu_images/:id              {:action=>"update", :controller=>"attfu_images"}
+                           PUT    /attfu_images/:id.:format      {:action=>"update", :controller=>"attfu_images"}
+                           DELETE /attfu_images/:id              {:action=>"destroy", :controller=>"attfu_images"}
+                           DELETE /attfu_images/:id.:format      {:action=>"destroy", :controller=>"attfu_images"}
+                      root        /                              {:action=>"index", :controller=>"attfu_images"}

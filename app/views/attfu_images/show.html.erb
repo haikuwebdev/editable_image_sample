@@ -1,0 +1,8 @@
+<div class="top_links">
+  <%= link_to 'Edit', edit_attfu_image_path(@image) %>
+  <%= link_to 'List', attfu_images_path %>
+</div>
+
+<div class="show">
+  <%= image_tag @image.public_filename %>
+</div>

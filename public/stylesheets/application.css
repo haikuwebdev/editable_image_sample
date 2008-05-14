@@ -1,0 +1,48 @@
+body {
+	color: #000;
+	font: 12px verdana, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+div.flash {
+	padding: 5px 15px;
+}
+div.flash.error {
+	background-color: #cd5c5c;
+	border-bottom: 2px solid #8b0000;
+	border-top: 2px solid #8b0000;
+}
+div.flash.notice {
+	background-color: #c8f4ba;
+	border-bottom: 2px solid #009900;
+	border-top: 2px solid #009900;
+}
+div.top_links {
+	background-color: #000;
+	padding: 5px 15px;
+}
+div.top_links a {
+	color: #fff;
+	margin: 0 10px 0 0;
+}
+div.index {
+	float: left;
+	margin: 10px;
+}
+div.image_links {
+	background-color: #000;
+	padding: 3px 5px;
+	text-align: right;
+}
+div.image_links a {
+	color: #fff;
+	font-size: 11px;
+	margin: 0 0 0 5px;
+}
+div.show {
+	margin: 10px 0;
+	text-align: center;
+}
+form.new_attfu_image {
+	margin: 10px;
+}

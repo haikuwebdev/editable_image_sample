@@ -55,7 +55,7 @@ class AttfuImagesController < ApplicationController
       :export_field => 'attfu_image[uploaded_data]',
       # not required
       :exclude => 'in,out', 
-      # not required, but recommended for needed for resource routing to work
+      # not required, but needed for resource routing to work
       '_method' => 'put' }
   end
   

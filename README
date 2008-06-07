@@ -1,13 +1,13 @@
 == Welcome to the Editable Image Sample Application
 
 This is a simple image gallery application to demonstrate how to use the
-editable-image library (http://github.com/haikuwebdev/editable-image/tree/master) 
-from within a Rails application.
+editable-image library (http://github.com/haikuwebdev/editable-image/) from 
+within a Rails application.
 
 To install this on your local machine, you need to do the following:
 
 1. Check out this sample application:
-   git checkout git://github.com/haikuwebdev/editable-image.git
+   git clone git://github.com/haikuwebdev/editable_image_sample.git
 
 2. Initialize and update the rails and plugin submodules this application
    depends on:
@@ -24,6 +24,4 @@ To install this on your local machine, you need to do the following:
    publically accessible so that Picnik can send the edited pictures back to 
    your site.
 
-5. Create the log directory if necessary. (our .gitignore file is a little aggressive).
-
-6. Start your Rails server and take the sample app for a spin!
+5. Start your Rails server and take the sample app for a spin!

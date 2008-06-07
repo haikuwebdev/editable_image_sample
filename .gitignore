@@ -2,7 +2,8 @@
 config/picnik.yml
 db/*.sqlite3
 db/database.yml
-log/*
+log/*.log
+log/*.pid
 public/test/*
 public/attfu_images/*
-tmp/*
+tmp/**/*

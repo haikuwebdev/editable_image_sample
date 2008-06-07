@@ -1,8 +1,8 @@
 == Welcome to the Editable Image Sample Application
 
 This is a simple image gallery application to demonstrate how to use the
-editable-image library (http://github.com/haikuwebdev/editable-image/tree/master) from within a
-Rails application.
+editable-image library (http://github.com/haikuwebdev/editable-image/tree/master) 
+from within a Rails application.
 
 To install this on your local machine, you need to do the following:
 

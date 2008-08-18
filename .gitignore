@@ -7,3 +7,4 @@ log/*.pid
 public/test/*
 public/attfu_images/*
 tmp/**/*
+vendor/gems/**/*

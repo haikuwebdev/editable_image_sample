@@ -1,5 +1,0 @@
-require 'rubygems'
-require 'mime/types'
-require 'multipart'
-require 'editable-image/exceptions'
-require 'picnik/picnik'

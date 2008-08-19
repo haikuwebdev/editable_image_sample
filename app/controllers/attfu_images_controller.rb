@@ -15,7 +15,7 @@ class AttfuImagesController < ApplicationController
   
   def edit
     @image = AttfuImage.find(params[:id])
-    redirect_to Picnik.url(@image.full_filename, picnik_params)
+    redirect_to EditableImage::Picnik.url(@image.full_filename, picnik_params)
   end
   
   def create
